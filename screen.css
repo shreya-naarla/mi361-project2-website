@@ -1,4 +1,52 @@
-/* Add screen styles below */
+:root {
+    --color1: #DAD7CD;
+    --color2: #A3B18A;
+    --color3: #588157;
+    --color4: #3A5A40;
+    --color5: #344E41;
+  }
+
+
 a.active {
     font-weight: bold;
+
+}
+
+body {
+    background-color: var(--color5);
+    color: var(--color1);
+}
+
+a {
+    color: var(--color1);
+    text-decoration:none;
+}
+
+nav {
+    background-color: var(--color4);
+    display: flex;
+    align-items: baseline;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: var(--color3) 2px solid;
+}
+
+h1 {
+    color: var(--color2);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.below-nav {
+    margin-top: 80px;
+}
+
+td {
+    padding-right: 25px;
+}
+
+a {
+    padding: 15px;
 }
