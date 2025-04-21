@@ -72,3 +72,12 @@ nav a {
     gap: 20px;
     text-align: center;
 }
+
+button {
+    margin-top: 10px;
+    background-color: var(--color4);
+    color: var(--color1);
+    border-color: var(--color2);
+    border: solid 1px;
+    border-radius: 10px;
+}
