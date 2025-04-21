@@ -6,10 +6,12 @@
     --color5: #344E41;
   }
 
+a {
+    color: var(--color2);
+}
 
-a.active {
+nav a.active {
     font-weight: bold;
-
 }
 
 body {
@@ -18,7 +20,7 @@ body {
     margin: 0;
 }
 
-a {
+nav a {
     color: var(--color1);
     text-decoration:none;
 }
@@ -27,9 +29,9 @@ nav {
     background-color: var(--color4);
     display: flex;
     align-items: baseline;
+    top: 0;
     position: sticky;
-    width: 100%;
-    border-bottom: var(--color3) 2px solid;
+    border-bottom: var(--color2) 2px solid;
     margin-bottom: 15px;
 }
 
@@ -48,6 +50,25 @@ td {
     padding-right: 25px;
 }
 
-a {
+nav a {
     padding: 15px;
+}
+
+.plant {
+    background-color: var(--color3);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+
+#plants {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    text-align: center;
 }

@@ -1,2 +1,1 @@
-# boilerplate
-Basic HTML and CSS setup for simple web design
+MI361 Project 2 - Life In Bloom Company Website
